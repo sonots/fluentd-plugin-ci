@@ -10,8 +10,8 @@ passes = specs.map do |spec|
 cd #{spec.full_gem_path}
 echo "bundle install"
 bundle install
-echo "bundle exec rake"
-bundle exec rake
+echo "RUBYLIB=lib:test:$RUBYLIB bundle exec rake"
+RUBYLIB=lib:test:$RUBYLIB bundle exec rake
 EOF
   end
 end
