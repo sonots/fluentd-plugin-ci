@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "fluentd", git: "https://github.com/sonots/fluentd", branch: "revert_dummy_log_device_commit"
+gem "fluentd", git: "https://github.com/fluent/fluentd"
 # sonots plguins
 gem 'fluent-plugin-measure_time', git: 'https://github.com/sonots/fluent-plugin-measure_time'
 gem 'fluent-plugin-flowcounter-simple', git: 'https://github.com/sonots/fluent-plugin-flowcounter-simple'
