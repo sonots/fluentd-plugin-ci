@@ -11,7 +11,7 @@ gem 'fluent-plugin-gc'
 gem 'fluent-plugin-grepcounter'
 gem 'fluent-plugin-groupcounter'
 gem 'fluent-plugin-hash-forward'
-# gem 'fluent-plugin-keep-forward' # v0.10.47 is not yet supported
+# gem 'fluent-plugin-keep-forward' # v0.10.46 is not yet supported
 gem 'fluent-plugin-record-reformer'
 gem 'fluent-plugin-reemit'
 gem 'fluent-plugin-stats'
