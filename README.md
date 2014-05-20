@@ -10,7 +10,7 @@ Add to [Gemfile](./Gemfile)
 
 ## How to specify Fluentd version
 
-Change [this line](https://github.com/sonots/fluentd-plugin-ci/blob/e17340163659ec0c5e80561742da8b222fba1ee6/Gemfile#L3) of Gemfile. 
+Change [this line](./Gemfile#L3) of Gemfile. 
 
 ## How to start test on travis
 
