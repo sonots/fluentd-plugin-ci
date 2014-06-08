@@ -31,4 +31,3 @@ gem 'fluent-plugin-config-expander'
 gem 'fluent-plugin-amplifier-filter'
 gem 'fluent-plugin-mail'
 gem 'fluent-plugin-anomalydetect'
-
