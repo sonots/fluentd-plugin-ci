@@ -18,7 +18,7 @@ gem 'fluent-plugin-stats', git: 'https://github.com/sonots/fluent-plugin-stats'
 gem 'fluent-plugin-stats-notifier'
 gem 'fluent-plugin-stdout_ex'
 gem 'fluent-plugin-tagged_copy'
-gem 'fluent-plugin-tail_path'
+gem 'fluent-plugin-tail_path', git: 'https://github.com/sonots/fluent-plugin-tail_path'
 gem 'fluent-plugin-yohoushi'
 # others
 gem 'fluent-plugin-ikachan'
