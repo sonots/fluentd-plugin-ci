@@ -22,3 +22,7 @@ $ git push origin master
 ```
 
 Then, travis will automatically start testing by github webhook. 
+
+## Further reading
+
+* [複数の fluentd plugin のテストを一気に流すやつ - sonots:blog](http://blog.livedoor.jp/sonots/archives/38159504.html) (Japanese)
