@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "fluentd", git: "https://github.com/fluent/fluentd"
+gem "fluentd", git: "https://github.com/fluent/fluentd", branch: 'floating_time'
 # sonots plugins
 gem 'fluent-plugin-copy_ex'
 gem 'fluent-plugin-debug', git: 'https://github.com/sonots/fluent-plugin-debug'
