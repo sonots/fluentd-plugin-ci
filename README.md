@@ -6,7 +6,7 @@ a repository to test plugins in batch with new fluentd version
 
 ## How to add tested plugins
 
-Add to [Gemfile](./Gemfile)
+Add to [Gemfile.plugins](./Gemfile.plugins)
 
 ## How to specify Fluentd version
 
