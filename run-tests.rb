@@ -1,7 +1,8 @@
 require "rubygems"
 
-# get the gem fluentd version to run ci test with the version
-gem_fluentd = File.readlines('Gemfile').grep(/fluentd/).first.chomp.gsub('"', '\"')
+# get the gem 'fluentd' line to run ci test with the version
+gem_fluentd = File.readlines(ENV['BUNDLE_GEMFILE']).grep(/fluentd/).first.chomp.gsub('"', '\"')
+# tweaked Gemfile name on each plugin
 GEMFILE_CI = "Gemfile.fluentd_plugin_ci"
 
 specs = Gem::Specification.find_all { |s| s.name =~ /fluent-plugin/ }

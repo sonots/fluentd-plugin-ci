@@ -1,5 +1,7 @@
 rvm:
-  - 2.1
+  - 2.3.0
 gemfile:
   - Gemfile
+  - Gemfile.v0.10
+  - Gemfile.v0.12
 script: "bundle exec ruby run-tests.rb"
