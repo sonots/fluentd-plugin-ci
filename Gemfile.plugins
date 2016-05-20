@@ -1,5 +1,5 @@
 # sonots plugins
-gem 'fluent-plugin-copy_ex'
+gem 'fluent-plugin-copy_ex', git: 'https://github.com/sonots/fluent-plugin-copy_ex'
 gem 'fluent-plugin-debug', git: 'https://github.com/sonots/fluent-plugin-debug'
 gem 'fluent-plugin-elapsed-time', git: 'https://github.com/sonots/fluent-plugin-elapsed-time'
 gem 'fluent-plugin-flowcounter-simple', git: 'https://github.com/sonots/fluent-plugin-flowcounter-simple'
