@@ -31,5 +31,4 @@ gem 'fluent-plugin-ikachan', git: 'https://github.com/tagomoris/fluent-plugin-ik
 gem 'fluent-plugin-numeric-monitor', git: 'https://github.com/tagomoris/fluent-plugin-numeric-monitor'
 gem 'fluent-plugin-s3', git: 'https://github.com/fluent/fluent-plugin-s3'
 gem 'fluent-plugin-secure-forward', git: 'https://github.com/tagomoris/fluent-plugin-secure-forward'
-gem 'fluent-plugin-sql', git: 'https://github.com/fluent/fluent-plugin-sql'
 gem 'fluent-plugin-webhdfs', git: 'https://github.com/fluent/fluent-plugin-webhdfs'
