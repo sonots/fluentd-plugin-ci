@@ -16,8 +16,8 @@ TASK = {
   'fluent-plugin-gc' => 'spec',
   'fluent-plugin-elapsed-time' => 'spec',
   'fluent-plugin-latency' => 'spec',
-  'fluent-plugin-hash-forward' => 'spec'
-  'fluent-plugin-yohoushi' => 'spec'
+  'fluent-plugin-hash-forward' => 'spec',
+  'fluent-plugin-yohoushi' => 'spec',
 }
 
 specs = Gem::Specification.find_all { |s| s.name =~ /fluent-plugin/ }
