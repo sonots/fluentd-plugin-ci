@@ -31,7 +31,7 @@ gem 'fluent-plugin-forest', git: 'https://github.com/tagomoris/fluent-plugin-for
 gem 'fluent-plugin-growthforecast', git: 'https://github.com/tagomoris/fluent-plugin-growthforecast'
 gem 'fluent-plugin-ikachan', git: 'https://github.com/tagomoris/fluent-plugin-ikachan'
 gem 'fluent-plugin-heroku-syslog', git: 'https://github.com/hakobera/fluent-plugin-heroku-syslog.git'
-gem 'fluent-plugin-http_shadow', git: 'https://github.com/toyama0919/fluent-plugin-http_shadow.git'
+gem 'fluent-plugin-http_shadow', git: 'https://github.com/sonots/fluent-plugin-http_shadow.git', branch: 'fix_tests'
 gem 'fluent-plugin-numeric-monitor', git: 'https://github.com/tagomoris/fluent-plugin-numeric-monitor'
 gem 'fluent-plugin-rewrite', git: 'https://github.com/kentaro/fluent-plugin-rewrite'
 gem 'fluent-plugin-s3', git: 'https://github.com/fluent/fluent-plugin-s3'
