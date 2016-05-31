@@ -23,7 +23,7 @@ gem 'fluent-plugin-yohoushi', git: 'https://github.com/sonots/fluent-plugin-yoho
 # others
 gem 'fluent-plugin-amplifier-filter', git: 'https://github.com/tagomoris/fluent-plugin-amplifier-filter'
 gem 'fluent-plugin-anomalydetect', git: 'https://github.com/muddydixon/fluent-plugin-anomalydetect'
-gem 'fluent-plugin-bigquery', git: 'https://github.com/kaizenplatform/fluent-plugin-bigquery.git'
+# gem 'fluent-plugin-bigquery', git: 'https://github.com/kaizenplatform/fluent-plugin-bigquery.git' # fails with even v0.12
 gem 'fluent-plugin-config-expander', git: 'https://github.com/tagomoris/fluent-plugin-config-expander'
 gem 'fluent-plugin-datacounter', git: 'https://github.com/tagomoris/fluent-plugin-datacounter'
 gem 'fluent-plugin-dogstatsd', git: 'https://github.com/ryotarai/fluent-plugin-dogstatsd.git'
