@@ -26,7 +26,7 @@ gem 'fluent-plugin-anomalydetect', git: 'https://github.com/muddydixon/fluent-pl
 # gem 'fluent-plugin-bigquery', git: 'https://github.com/kaizenplatform/fluent-plugin-bigquery.git' # fails with even v0.12
 gem 'fluent-plugin-config-expander', git: 'https://github.com/tagomoris/fluent-plugin-config-expander'
 gem 'fluent-plugin-datacounter', git: 'https://github.com/tagomoris/fluent-plugin-datacounter'
-gem 'fluent-plugin-dogstatsd', git: 'https://github.com/ryotarai/fluent-plugin-dogstatsd.git'
+gem 'fluent-plugin-dogstatsd', git: 'https://github.com/sonots/fluent-plugin-dogstatsd.git', branch: 'fix_tests'
 gem 'fluent-plugin-forest', git: 'https://github.com/tagomoris/fluent-plugin-forest'
 gem 'fluent-plugin-growthforecast', git: 'https://github.com/tagomoris/fluent-plugin-growthforecast'
 gem 'fluent-plugin-ikachan', git: 'https://github.com/tagomoris/fluent-plugin-ikachan'
